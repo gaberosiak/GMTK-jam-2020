@@ -1,2 +1,2 @@
-# GMTK-jam-2020
-Come on and slam
+# come on and slam
+and welcome to the game jam
