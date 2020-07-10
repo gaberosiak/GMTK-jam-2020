@@ -1,0 +1,10 @@
+damage = 0;
+knockback = 0;
+//lifetime = 0;
+scale = 1;
+xspeed = 0;
+yspeed = 0;
+immune = noone;
+fragile = true;
+sprite = noone;
+spriteangle = 0;

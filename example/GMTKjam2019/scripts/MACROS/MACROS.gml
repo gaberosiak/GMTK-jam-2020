@@ -1,0 +1,1 @@
+#macro debugmode 1
