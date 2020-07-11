@@ -31,6 +31,8 @@ input_rc_pressed = 0;
 dx = 0;
 dy = 0;
 
+flying = false;
+
 W_juice = 0;
 A_juice = 0;
 S_juice = 0;

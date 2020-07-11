@@ -895,6 +895,14 @@
             }
         },
         {
+            "Key": "9d2073bb-3198-4244-8936-f48f5dea48af",
+            "Value": {
+                "id": "829bff4f-45b7-4ea2-bf03-6c22c0d52cc6",
+                "resourcePath": "rooms\\rm_dvdtest\\rm_dvdtest.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a014fef9-74e0-487a-b6e2-56ce901c12af",
             "Value": {
                 "id": "6854d0c8-858a-48e1-8afc-ba0ce31faeb0",
@@ -1441,7 +1449,8 @@
     ],
     "script_order": [
         "0528aa71-af32-49c4-9abf-1e1e1f3012f5",
-        "e58d4986-f150-4f15-8ca6-842c48691ffe"
+        "e58d4986-f150-4f15-8ca6-842c48691ffe",
+        "2a47277d-be43-411a-8905-876e90a299af"
     ],
     "tutorial": ""
 }

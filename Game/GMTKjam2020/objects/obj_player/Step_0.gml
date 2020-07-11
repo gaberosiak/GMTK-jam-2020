@@ -35,5 +35,5 @@ input_rc_pressed = _rcp;
 floortype = getFloorType(x,y);
 //image_angle = 45*floortype; //funny debug
 
-//event_user(floortype);
-event_user(0);
+event_user(floortype);
+//event_user(0);
