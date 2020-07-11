@@ -1,9 +1,9 @@
-W_juice = 1;
-A_juice = 1;
-S_juice = 1;
-D_juice = 1;
-lc_juice = 1;
-rc_juice = 1;
+W_juice = 640;
+A_juice = 640;
+S_juice = 640;
+D_juice = 640;
+lc_juice = 60;
+rc_juice = 60;
 
 //level description
 //

@@ -19,6 +19,9 @@ floortype = floors.normal;
 
 walk_speed = 4;
 
+juice_cost_WASD = walk_speed;
+juice_cost_equipment = 1;
+
 input_x = 0;
 input_y = 0;
 input_lc = 0;
@@ -30,6 +33,8 @@ input_rc_pressed = 0;
 //move_speed = 0;
 dx = 0;
 dy = 0;
+
+flying = false;
 
 W_juice = 0;
 A_juice = 0;

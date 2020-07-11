@@ -2,18 +2,12 @@
 
 //all these variables should be set in the creation code of the instance
 //juice levels
-//W_juice = 0;
-//A_juice = 0;
-//S_juice = 0;
-//D_juice = 0;
-//lc_juice = 0;
-//rc_juice = 0;
-W_juice = 1;
-A_juice = 1;
-S_juice = 1;
-D_juice = 1;
-lc_juice = 1;
-rc_juice = 1;
+W_juice = 0;
+A_juice = 0;
+S_juice = 0;
+D_juice = 0;
+lc_juice = 0;
+rc_juice = 0;
 
 //equipment
 //equipment = obj_eq_gun;

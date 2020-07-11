@@ -6,7 +6,7 @@ lc_juice = 1;
 rc_juice = 1;
 
 //level description
-// test level
+//
 
 //notes for when the code actually exists
-// dont fuck it up
+//

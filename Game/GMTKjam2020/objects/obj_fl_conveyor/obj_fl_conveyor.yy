@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_fl_conveyor",
     "eventList": [
-        
+        {
+            "id": "30d816a6-05e4-4aea-9d95-a2a2c6df96b8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d1840542-74a8-4484-96bd-fa66ed05dfb5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
