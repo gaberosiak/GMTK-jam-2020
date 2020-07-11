@@ -8,6 +8,7 @@ dy = input_y * walk_speed
 //collision check
 collide(floortype);
 
+
 //move commit
 x += dx;
 y += dy;

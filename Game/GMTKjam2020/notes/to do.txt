@@ -1,7 +1,8 @@
 Major things
 - all of it
-- collision
-- camera
+- collision DONE
+- camera DONE
+- floor states
 
 Minor things
-- forget angle based movement
+- 
