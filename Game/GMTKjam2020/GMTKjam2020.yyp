@@ -140,9 +140,9 @@
                 "id": "01b335a2-d4e9-46f7-b861-fe0cdad3805a",
                 "resourcePath": "rooms\\rm_danish2\\rm_danish2.yy",
                 "resourceType": "GMRoom"
-			}
-		},
-		{
+            }
+        },
+        {
             "Key": "1380254e-99bf-45bc-a8dd-2cee04451218",
             "Value": {
                 "id": "2cffda39-0205-4ea0-91ff-9ca7a8a4164b",
@@ -260,9 +260,9 @@
                 "id": "47305bb0-7c6c-4231-a72c-ddbc1ffd9d70",
                 "resourcePath": "rooms\\rm_danish3\\rm_danish3.yy",
                 "resourceType": "GMRoom"
-			}
-		},
-		{
+            }
+        },
+        {
             "Key": "2a47277d-be43-411a-8905-876e90a299af",
             "Value": {
                 "id": "8c3a092a-1b52-4231-b56b-0441e165bca6",
@@ -1465,7 +1465,8 @@
     ],
     "script_order": [
         "0528aa71-af32-49c4-9abf-1e1e1f3012f5",
-        "e58d4986-f150-4f15-8ca6-842c48691ffe"
+        "e58d4986-f150-4f15-8ca6-842c48691ffe",
+        "2a47277d-be43-411a-8905-876e90a299af"
     ],
     "tutorial": ""
 }
