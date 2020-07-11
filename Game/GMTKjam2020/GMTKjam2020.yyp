@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "92b6c16e-bd0a-4d84-b04d-11cda8c93a2e",
+            "Value": {
+                "id": "42d69580-1867-4b18-921c-05a4dcbffb04",
+                "resourcePath": "rooms\\rm_battletoads\\rm_battletoads.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "93eb6d6d-3e4b-469a-93e4-5181fd394d51",
             "Value": {
                 "id": "93f94e9f-ec40-4212-8494-eeab9677c68a",
