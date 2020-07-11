@@ -29,6 +29,8 @@ input_rc = _rc;
 input_lc_pressed = _lcp;
 input_rc_pressed = _rcp;
 
+//deplete juice --> to come
+
 //check floor type
 floortype = getFloorType(x,y);
 //image_angle = 45*floortype; //funny debug

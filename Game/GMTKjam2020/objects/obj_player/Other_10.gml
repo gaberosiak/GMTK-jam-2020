@@ -8,7 +8,6 @@ dy = input_y * walk_speed
 //collision check
 collide(floortype);
 
-
 //move commit
 x += dx;
 y += dy;
@@ -16,5 +15,5 @@ y += dy;
 //equipment --> in equipment object
 
 //animate
-//image_angle = move_dir;
+//to come...
 
