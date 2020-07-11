@@ -1,0 +1,7 @@
+Major things
+- all of it
+- collision
+- camera
+
+Minor things
+- forget angle based movement

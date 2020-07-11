@@ -29,4 +29,9 @@ input_rc = _rc;
 input_lc_pressed = _lcp;
 input_rc_pressed = _rcp;
 
-event_user(state);
+//check floor type
+floortype = getFloorType(x,y);
+//image_angle = 45*floortype; //funny debug
+
+//event_user(floortype);
+event_user(0);
