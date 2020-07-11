@@ -1,6 +1,6 @@
-W_juice = 256;
+W_juice = 512;
 A_juice = 0;
-S_juice = 256;
+S_juice = 512;
 D_juice = 64;
 lc_juice = 0;
 rc_juice = 0;
