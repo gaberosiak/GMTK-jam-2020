@@ -1175,6 +1175,14 @@
             }
         },
         {
+            "Key": "cfc15149-4374-4a0f-98cd-600a9222feb4",
+            "Value": {
+                "id": "c6960f34-32d9-43c3-b694-faceb86e724d",
+                "resourcePath": "scripts\\writeToAll\\writeToAll.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d1840542-74a8-4484-96bd-fa66ed05dfb5",
             "Value": {
                 "id": "61843ed6-9271-4bbb-8747-74510ac77153",
