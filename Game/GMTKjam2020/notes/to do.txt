@@ -6,10 +6,10 @@ Major things
 - floor dependent collision DONE
 - juice depletion DONE
 - juice UI DONE (thanks Danish)
+- pickups replenishment DONE
 
-- pickups replenishment
-- animation
 - equipment
+- animation
 - enemies
 - main menu
 - final packaging
