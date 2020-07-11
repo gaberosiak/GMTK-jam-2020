@@ -16,6 +16,8 @@ dy = lengthdir_y(move_speed,move_dir);
 x += dx;
 y += dy;
 
+//equipment --> in equipment object
+
 //animate
 image_angle = move_dir;
 

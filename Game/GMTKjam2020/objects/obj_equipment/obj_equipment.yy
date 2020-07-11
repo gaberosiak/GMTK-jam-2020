@@ -2,7 +2,7 @@
     "id": "987ce520-15de-4570-acc4-0b3208d28e70",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_arm",
+    "name": "obj_equipment",
     "eventList": [
         {
             "id": "0ac3835b-6056-4188-a751-c8cce7fa89c2",

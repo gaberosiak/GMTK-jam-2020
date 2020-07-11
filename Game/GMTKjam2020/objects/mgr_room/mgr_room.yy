@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "mgr_room",
     "eventList": [
-        
+        {
+            "id": "83ed245e-e235-4aaa-95f3-fc3f863e1fc6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ca3c1f8e-77f8-46b4-94e4-84e9cabadafb"
+        },
+        {
+            "id": "b5d520b9-9055-4fa6-9989-192c3fe42f8a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "ca3c1f8e-77f8-46b4-94e4-84e9cabadafb"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

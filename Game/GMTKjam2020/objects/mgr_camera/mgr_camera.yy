@@ -1,19 +1,10 @@
 {
-    "id": "6cd4a900-fb9f-4a17-8d01-635ef4a0766d",
+    "id": "85d58e95-80f4-4027-b1dd-96ab70b0275b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_end",
+    "name": "mgr_camera",
     "eventList": [
-        {
-            "id": "79ddd722-ee23-4694-af61-a46cdaada65c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6cd4a900-fb9f-4a17-8d01-635ef4a0766d"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d77ac7b2-ebf2-426e-9295-5bb0a17e46ae",
+    "spriteId": "602c74e1-a57d-4a41-aeca-18ff30542928",
     "visible": true
 }

@@ -1,8 +1,10 @@
 enum states {
-neutral
+	neutral
 }
 
 state = states.neutral;
+
+equipment = noone;
 
 walk_speed = 4;
 
@@ -18,9 +20,9 @@ move_speed = 0;
 dx = 0;
 dy = 0;
 
-W_juice = 60;
-A_juice = 60;
-S_juice = 60;
-D_juice = 60;
-lc_juice = 60;
-rc_juice = 60;
+W_juice = 0;
+A_juice = 0;
+S_juice = 0;
+D_juice = 0;
+lc_juice = 0;
+rc_juice = 0;
