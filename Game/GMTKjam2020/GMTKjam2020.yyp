@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "2b5a360b-20e0-4ddd-b288-326467ea556e",
+            "Value": {
+                "id": "ed1f6aee-d0ba-4423-88c2-0d0a7b17053b",
+                "resourcePath": "scripts\\collectPickups\\collectPickups.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2cae7ff2-1913-44b7-8e34-6f693c39c76e",
             "Value": {
                 "id": "90472978-911b-41a6-9e64-b998e4a726b1",

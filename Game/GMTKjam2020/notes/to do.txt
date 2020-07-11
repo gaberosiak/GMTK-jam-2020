@@ -1,14 +1,18 @@
 Major things
-- all of it
+
 - collision DONE
 - camera DONE
 - floor states DONE
 - floor dependent collision DONE
+- juice depletion DONE
+- juice UI DONE (thanks Danish)
 
-- juice depletion and replenishment
+- pickups replenishment
+- animation
 - equipment
 - enemies
-- UI (Danish)
+- main menu
+- final packaging
 
 Minor things
 - 
