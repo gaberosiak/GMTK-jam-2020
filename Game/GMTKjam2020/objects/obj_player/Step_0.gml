@@ -1,4 +1,7 @@
-// get inputs and check for juice
+///@desc universal step actions
+
+// get inputs, check for and deplete juice
+
 var _w = mgr_input.key_up;
 if (W_juice <= 0) _w = 0;
 W_juice -= _w * juice_cost_WASD;
@@ -33,6 +36,7 @@ if (rc_juice <= 0)
 }
 rc_juice -= _rc * juice_cost_equipment;
 
+//write to input variables based on whether you have juice
 input_x = _d - _a;
 input_y = _s - _w;
 input_lc = _lc;
@@ -40,7 +44,8 @@ input_rc = _rc;
 input_lc_pressed = _lcp;
 input_rc_pressed = _rcp;
 
-//deplete juice --> to come
+//collect pickups
+collectPickups();
 
 //check floor type
 floortype = getFloorType(x,y);
