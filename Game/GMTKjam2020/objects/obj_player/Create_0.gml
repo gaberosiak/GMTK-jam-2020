@@ -1,8 +1,19 @@
-enum states {
-	neutral
+//enum states {
+//	neutral
+//}
+
+enum floors {
+	normal,
+	conveyor,
+	ice,
+	pit,
+	crusher,
+	goop
 }
 
-state = states.neutral;
+floortype = floors.normal;
+
+//state = states.neutral;
 
 //equipment = noone;
 
@@ -15,8 +26,8 @@ input_rc = 0;
 input_lc_pressed = 0;
 input_rc_pressed = 0;
 
-move_dir = 0;
-move_speed = 0;
+//move_dir = 0;
+//move_speed = 0;
 dx = 0;
 dy = 0;
 

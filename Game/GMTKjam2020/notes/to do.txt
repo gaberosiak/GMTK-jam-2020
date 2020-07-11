@@ -1,0 +1,8 @@
+Major things
+- all of it
+- collision DONE
+- camera DONE
+- floor states
+
+Minor things
+- 
