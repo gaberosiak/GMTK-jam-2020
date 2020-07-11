@@ -1,5 +1,5 @@
-W_juice = 1;
-A_juice = 256;
+W_juice = 256;
+A_juice = 0;
 S_juice = 256;
 D_juice = 64;
 lc_juice = 0;
