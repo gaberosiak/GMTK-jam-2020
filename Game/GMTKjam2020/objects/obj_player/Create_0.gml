@@ -19,6 +19,9 @@ floortype = floors.normal;
 
 walk_speed = 4;
 
+juice_cost_WASD = walk_speed;
+juice_cost_equipment = 1;
+
 input_x = 0;
 input_y = 0;
 input_lc = 0;

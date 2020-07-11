@@ -2,13 +2,13 @@ Major things
 - all of it
 - collision DONE
 - camera DONE
+- floor states DONE
+- floor dependent collision DONE
 
-- floor states
-- floor dependent collision
 - juice depletion and replenishment
 - equipment
 - enemies
-- UI
+- UI (Danish)
 
 Minor things
 - 

@@ -1239,14 +1239,6 @@
             }
         },
         {
-            "Key": "df967b5b-bd87-4af5-b823-e5d88efd9c97",
-            "Value": {
-                "id": "e3178e97-4f9c-43d3-828e-a9350cd778a4",
-                "resourcePath": "rooms\\rm_fucko\\rm_fucko.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "e0e88214-5c92-412a-b265-28a2ab9b8bed",
             "Value": {
                 "id": "a567bd4a-3ae2-4022-9960-2967c880230d",
