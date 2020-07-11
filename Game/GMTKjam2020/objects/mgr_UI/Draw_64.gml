@@ -14,9 +14,15 @@ draw_text(5,105,"R - ");
 
 
 draw_set_color(c_red);
-draw_rectangle(40,12.5,(50 * (obj_player.W_juice / 640)) + 40,20,false);
-draw_rectangle(40,32.5,(50 * (obj_player.A_juice / 640)) + 40,40,false);
-draw_rectangle(40,52.5,(50 * (obj_player.S_juice / 640)) + 40,60,false);
-draw_rectangle(40,72.5,(50 * (obj_player.D_juice / 640)) + 40,80,false);
-draw_rectangle(40,92.5,(50 * (obj_player.lc_juice / 640)) + 40,100,false);
-draw_rectangle(40,112.5,(50 * (obj_player.rc_juice / 640)) + 40,120,false);
+if(obj_player.W_juice > 0)
+	draw_rectangle(40,12.5,(50 * (obj_player.W_juice / 640)) + 40,20,false);
+if(obj_player.A_juice > 0)
+	draw_rectangle(40,32.5,(50 * (obj_player.A_juice / 640)) + 40,40,false);
+if(obj_player.S_juice > 0)
+	draw_rectangle(40,52.5,(50 * (obj_player.S_juice / 640)) + 40,60,false);
+if(obj_player.D_juice > 0)
+	draw_rectangle(40,72.5,(50 * (obj_player.D_juice / 640)) + 40,80,false);
+if(obj_player.lc_juice > 0)
+	draw_rectangle(40,92.5,(50 * (obj_player.lc_juice / 640)) + 40,100,false);
+if(obj_player.rc_juice > 0)
+	draw_rectangle(40,112.5,(50 * (obj_player.rc_juice / 640)) + 40,120,false);
