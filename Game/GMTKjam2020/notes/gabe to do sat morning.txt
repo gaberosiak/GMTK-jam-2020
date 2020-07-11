@@ -1,0 +1,4 @@
+1. set up parent room and code for room mgr
+2. create placeholder child objects for all floor and wall types
+3. KT on how to use """"level editor""""
+4. do the actual code
