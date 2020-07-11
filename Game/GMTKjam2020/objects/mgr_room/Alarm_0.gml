@@ -7,13 +7,14 @@ obj_player.D_juice = D_juice;
 obj_player.lc_juice = lc_juice;
 obj_player.rc_juice = rc_juice;
 
-obj_player.equipment = equipment;
-with obj_player
-{
-	if equipment != noone
-	{
-		instance_create_layer(x,y,"Instances_top",equipment);
-	}
-}
+////I think I can comment this out --> instead of spawning equipment from object just put in room. More intuitive
+//obj_player.equipment = equipment;
+//with obj_player
+//{
+//	if equipment != noone
+//	{
+//		instance_create_layer(x,y,"Instances_top",equipment);
+//	}
+//}
 
 obj_end.next_level = next_level;

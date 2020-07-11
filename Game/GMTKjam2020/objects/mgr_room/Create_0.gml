@@ -16,7 +16,7 @@ lc_juice = 1;
 rc_juice = 1;
 
 //equipment
-equipment = obj_equipment;
+//equipment = obj_eq_gun;
 
 //next level
 next_level = room;

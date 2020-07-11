@@ -19,5 +19,5 @@ y += dy;
 //equipment --> in equipment object
 
 //animate
-image_angle = move_dir;
+//image_angle = move_dir;
 

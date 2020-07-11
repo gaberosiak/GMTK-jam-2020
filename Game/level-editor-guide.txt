@@ -1,0 +1,52 @@
+How to lay out a level
+by Gabe "the Yellow Dart" Rosiak
+
+I DON'T HAVE STUFF ACTUALLY CODED YET BUT HERE'S HOW TO DESIGN A LEVEL IN THE IDE SO IT WORKS LATER WHEN THERE IS CODE
+
+1. Create a duplicate of "rm_parent" in the resource tree. Name it rm_whatever and double click to open it in a new tab (make sure you're editing the new room and not rm_parent).
+
+2. Setting juice levels and room stuff:
+	2a. Select the "Game" layer in the room editor pane
+	2b. Double click mgr_room (either in the room editor or the sprite in the room) to open the instance window
+	2c. Click "Creation Code" in the Instance window
+	2d. Set the starting juice levels for the room
+		- For WASD assume that 1 juice point equals 1 pixel. Tiles are 64x64, so if you want to be able to move 1 tile right, you would set D_juice = 64
+		- For the left and right clicks (lc_juice, rc_juice) assume 1 juice point is 1 frame of use of the ability
+	2e. Fill out the comments so I don't fuck up your idea when I implement the code
+
+3. A brief note about layers
+	- I have a bunch of instance layers mostly so that everything draws in the right order. Here's what goes on each of them
+		- Game: This just holds the manager objects, you shouldn't have to add any objects here
+		- Instances_top: equipment object, anything else that should be drawn above everything else (e.g. projectiles)
+		- Instances_middle: player, pickups, enemies, other things where the draw order isn't critical
+		- Instances_bottom: start and end, anything else that should be drawn above the floor but below other stuff
+		- Walls: you're not gonna believe this but this is where you put the walls
+		- Floor: *nodding* floor.
+	- You shouldn't have to do anything with the tile or background layers for now
+
+4. Walls and floors
+	4a. Just make sure you're on the right layer when adding these
+	4b. The grid should already be set to snap to 64px spacing but if it isn't, turn that on
+	4c. Click the wall/floor type you want to use in the objects section of the resource tree and hold alt to paint into the level
+	4d. The play space should be fully walled in and all reachable space should have a floor object
+	4e. I'm probably going to prioritize getting at least the ice, conveyor, and pit floor types programmed before doing anything beyond normal walls. So do with that what you will
+	4f. You can rotate the wall and floor objects to get stuff in the right direction
+	4g. The default room size is 6400x6400 which means 100x100 tiles for the level. That's hopefully plenty but you can increase the size if really needed
+	4h. I added some extra "idea" objects in case you come up with something not already on the list. Same with enemies and equipment
+
+5. Start and end
+	5a. The start and end objects should already be populated in the Instances_middle layer. Just drag them where you want them
+
+6. Player and equipment
+	6a. The start object will automatically spawn the player at its position, so no need to place him yourself
+	6b. If using equipment (gun, vacuum etc), place it anywhere on the Instances_top layer and it will end up in the right place when the room runs
+	6c. The juice levels are written to the player by the room manager from back in step 2
+
+7. Enemies and pickups
+	7a. Place any enemies and pickups on the Instances_middle layer
+	7b. Let me know in the room comments (see step 2) how much juice should go in the pickups, if enemies should have certain behaviors/drops/etc
+
+8. Make sure things are on the right layers (I fuck this up every time)
+
+9. Uhhh I think that's it
+	

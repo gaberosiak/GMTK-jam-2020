@@ -4,7 +4,7 @@ enum states {
 
 state = states.neutral;
 
-equipment = noone;
+//equipment = noone;
 
 walk_speed = 4;
 
