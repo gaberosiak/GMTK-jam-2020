@@ -42,3 +42,7 @@ S_juice = 0;
 D_juice = 0;
 lc_juice = 0;
 rc_juice = 0;
+
+//animation stuff
+neck_y = -24;
+facing = 0;

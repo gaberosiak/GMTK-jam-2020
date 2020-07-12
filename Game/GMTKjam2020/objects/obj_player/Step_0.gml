@@ -44,6 +44,38 @@ input_rc = _rc;
 input_lc_pressed = _lcp;
 input_rc_pressed = _rcp;
 
+if input_x > 0
+{
+	sprite_index = spr_player_body_walk_right;
+	image_speed = 1;
+	facing = 0;
+}
+else if input_x < 0
+{
+	sprite_index = spr_player_body_walk_left;
+	image_speed = 1;
+	facing = 2;
+}
+else if input_y > 0
+{
+	sprite_index = spr_player_body_walk_fwd;
+	image_speed = 1;
+	facing = 3;
+}
+else if input_y < 0
+{
+	sprite_index = spr_player_body_walk_back;
+	image_speed = 1;
+	facing = 1;
+}
+else
+{
+	sprite_index = spr_player_body_idle;
+	image_speed = 0;
+	if (facing == 1) image_index = 1;
+	else image_index = 0;
+}
+
 //collect pickups
 collectPickups();
 

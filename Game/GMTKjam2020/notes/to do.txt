@@ -13,6 +13,7 @@ Major things
 - enemies (Danish)
 - main menu
 - final packaging
+- juice (in the traditional game dev sense)
 
 Minor things
 - 
