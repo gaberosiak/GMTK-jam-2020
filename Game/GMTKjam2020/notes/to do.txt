@@ -7,10 +7,10 @@ Major things
 - juice depletion DONE
 - juice UI DONE (thanks Danish)
 - pickups replenishment DONE
+- equipment DONE for now
 
-- equipment
 - animation
-- enemies
+- enemies (Danish)
 - main menu
 - final packaging
 
