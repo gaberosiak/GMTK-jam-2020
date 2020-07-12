@@ -4,7 +4,7 @@ S_juice = 640;
 D_juice = 640;
 lc_juice = 40;
 rc_juice = 0;
-
+level_name = "Guessing Game";
 //level description
 //Purpose is to make players to understand that movement drains meter
 //Players should have enough movement to get to the end (maybe a little more to experiment)
