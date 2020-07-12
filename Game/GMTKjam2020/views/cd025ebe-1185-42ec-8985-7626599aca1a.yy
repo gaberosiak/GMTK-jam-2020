@@ -14,7 +14,8 @@
         "a5e880de-eee7-4fb0-bd9c-6fd9cf502020",
         "11f31afe-c3ac-4683-9fe4-18de84fae4cc",
         "1aca4ee2-28df-4f60-9691-3e7410a07de5",
-        "2a84dac6-528e-4a19-a5c6-8ec2d2ca57b6"
+        "2a84dac6-528e-4a19-a5c6-8ec2d2ca57b6",
+        "33385251-9013-4f2f-9762-d47a51bfbe86"
     ],
     "filterType": "GMObject",
     "folderName": "equipment",

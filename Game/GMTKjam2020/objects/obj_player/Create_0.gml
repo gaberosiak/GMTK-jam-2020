@@ -45,7 +45,7 @@ rc_juice = 0;
 
 //animation stuff
 neck_y = -24;
-shoulder_y = -20;
+shoulder_y = -16;
 facing = 0;
 time_dead = 0;
 
