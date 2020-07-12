@@ -81,7 +81,7 @@ switch(state)
 			yDir = (obj_player.y - y) * 0.5;
 			if(collision_circle(x + xDir, y + yDir, 32, obj_player, true, false))
 			{
-				
+				//attack?
 			}
 		}
 		if(attackTimer >= 30)

@@ -80,7 +80,7 @@ switch(state)
 			yDir = (obj_player.y - y) * 0.5;
 			if(collision_circle(x + xDir, y + yDir, 32, obj_player, true, false))
 			{
-				
+				//attack?
 			}
 		}
 		if(attackTimer >= 30)
@@ -90,4 +90,18 @@ switch(state)
 		break;
 	case States.Trapped:
 		break;
+}
+
+//animate
+if state == States.Chase
+{
+	sprite_index = spr_en_default_run;
+	image_speed = 1;
+	if (dx != 0) image_xscale = -sign(dx);
+	else image_xscale = -1;
+}
+else
+{
+	sprite_index = spr_en_default;
+	image_speed = 0;
 }
