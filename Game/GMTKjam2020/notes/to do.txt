@@ -11,9 +11,11 @@ Major things
 - animation DONE
 - enemies DONE
 
+- sound
 - main menu
 - final packaging
 - juice (in the traditional game dev sense)
+- SUBMIT
 
 Minor things
 - 
