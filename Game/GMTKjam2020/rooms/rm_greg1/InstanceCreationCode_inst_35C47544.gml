@@ -4,6 +4,7 @@ S_juice = 0;
 D_juice = 0;
 lc_juice = 200;
 rc_juice = 0;
+level_name = "Curling";
 
 //level description
 //
