@@ -9,6 +9,7 @@ if obj_player.input_lc_pressed
 	_bullet.dir = image_angle;
 	_bullet.image_angle = _bullet.dir;
 	_bullet.vel = 12;
+	audio_play_sound(sfx_gun3,8,false);
 	
 	////multiple bullets
 	//for (var i = 0; i < 5; i++)

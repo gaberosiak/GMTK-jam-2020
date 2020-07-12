@@ -12,7 +12,11 @@ if (place_meeting(x+dx,y,obj_wall))
 	{
 		x += sign(dx);
 	}
-	if (_floortype == floors.ice) dx = -dx;
+	if (_floortype == floors.ice) 
+	{
+		dx = -dx;
+		audio_play_sound(sfx_impact,3,false);
+	}
 	else dx = 0;
 	_collision = true;
 }
@@ -23,7 +27,11 @@ if (place_meeting(x,y+dy,obj_wall))
 	{
 		y += sign(dy);
 	}
-	if (_floortype == floors.ice) dy = -dy;
+	if (_floortype == floors.ice) 
+	{
+		dy = -dy;
+		audio_play_sound(sfx_impact,3,false);
+	}
 	else dy = 0;
 	_collision = true;
 }

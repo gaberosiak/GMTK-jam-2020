@@ -1,22 +1,16 @@
 /// @description pit floor
 
 
-if flying
-{
-	//collision check
-	//bounce like ice
-	collide(floors.ice);
+W_juice = 0;
+A_juice = 0;
+S_juice = 0;
+D_juice = 0;
+lc_juice = 0;
+rc_juice = 0;
 
-	//move commit
-	x += dx;
-	y += dy;
-}
-else 
+if alive
 {
-	W_juice = 0;
-	A_juice = 0;
-	S_juice = 0;
-	D_juice = 0;
-	lc_juice = 0;
-	rc_juice = 0;
+	audio_play_sound(death,7,0);
+	alive = false;
 }
+
