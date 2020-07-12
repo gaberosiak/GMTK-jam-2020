@@ -13,14 +13,11 @@ enum floors {
 
 floortype = floors.normal;
 
-//state = states.neutral;
-
-//equipment = noone;
-
 walk_speed = 4;
 
 juice_cost_WASD = walk_speed;
 juice_cost_equipment = 1;
+juice_cost_gun = 10;
 
 input_x = 0;
 input_y = 0;

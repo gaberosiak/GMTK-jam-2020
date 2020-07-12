@@ -10,7 +10,9 @@ Major things
 - equipment DONE for now
 - animation DONE
 - enemies DONE
-- sound DONE FOR NOW
+- sound DONE
+- discrete bullet juice DONE
+
 
 - UI
 - main menu

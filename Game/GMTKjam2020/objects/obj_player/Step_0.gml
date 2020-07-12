@@ -40,25 +40,52 @@ if (_d && D_juice <= 0)
 }
 D_juice = max(0,D_juice-_d*juice_cost_WASD);
 
-var _lc = mgr_input.key_lc;
-var _lcp = mgr_input.key_lc_pressed;
-if (lc_juice <= 0) 
-{
-	if (_lcp) _outtajuice = true;
-	_lc = 0;
-	_lcp = 0;
-}
-lc_juice = max(0,lc_juice-_lc*juice_cost_equipment);
+// clicks
 
-var _rc = mgr_input.key_rc;
-var _rcp = mgr_input.key_rc_pressed;
-if (rc_juice <= 0) 
+if !instance_exists(obj_eq_shotgun)
 {
-	if (_rcp) _outtajuice = true;
-	_rc = 0;
-	_rcp = 0;
+	var _lc = mgr_input.key_lc;
+	var _lcp = mgr_input.key_lc_pressed;
+	if (lc_juice <= 0) 
+	{
+		if (_lcp) _outtajuice = true;
+		_lc = 0;
+		_lcp = 0;
+	}
+	lc_juice = max(0,lc_juice-_lc*juice_cost_equipment);
+
+	var _rc = mgr_input.key_rc;
+	var _rcp = mgr_input.key_rc_pressed;
+	if (rc_juice <= 0) 
+	{
+		if (_rcp) _outtajuice = true;
+		_rc = 0;
+		_rcp = 0;
+	}
+	rc_juice = max(0,rc_juice-_rc*juice_cost_equipment);
 }
-rc_juice = max(0,rc_juice-_rc*juice_cost_equipment);
+else
+{
+	var _lc = mgr_input.key_lc;
+	var _lcp = mgr_input.key_lc_pressed;
+	if (lc_juice <= 0) 
+	{
+		if (_lcp) _outtajuice = true;
+		_lc = 0;
+		_lcp = 0;
+	}
+	lc_juice = max(0,lc_juice-_lcp*juice_cost_gun);
+
+	var _rc = mgr_input.key_rc;
+	var _rcp = mgr_input.key_rc_pressed;
+	if (rc_juice <= 0) 
+	{
+		if (_rcp) _outtajuice = true;
+		_rc = 0;
+		_rcp = 0;
+	}
+	rc_juice = max(0,rc_juice-_rcp*juice_cost_gun);
+}
 
 //write to input variables based on whether you have juice
 input_x = _d - _a;
