@@ -30,7 +30,8 @@
         "24d477d0-5885-4a44-8e3d-7f281335c6e1",
         "9cc2fdcc-6aa8-434f-945f-9ca28594f9a2",
         "1a9cf705-8df7-46e4-b36c-8d41f52ae157",
-        "e0152b15-13d8-4a42-9826-a0a7377d42f9"
+        "e0152b15-13d8-4a42-9826-a0a7377d42f9",
+        "b8674596-9033-4c2b-9500-7c5c7609fdae"
     ],
     "filterType": "GMSprite",
     "folderName": "full-res",

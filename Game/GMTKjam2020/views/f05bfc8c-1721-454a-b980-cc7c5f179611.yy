@@ -6,7 +6,8 @@
     "children": [
         "03177415-fbc1-4108-9009-1a10042f41ed",
         "0138cd8e-0d5c-4e1a-989b-ba858bc95e20",
-        "42a0b1ae-076b-4f64-be31-a0f36a9d1357"
+        "42a0b1ae-076b-4f64-be31-a0f36a9d1357",
+        "69e0a6d2-eebc-4d73-bb7f-86473e58829a"
     ],
     "filterType": "GMSprite",
     "folderName": "walls",
