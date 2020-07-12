@@ -34,7 +34,7 @@ input_rc_pressed = 0;
 dx = 0;
 dy = 0;
 
-flying = false;
+//flying = false;
 
 W_juice = 0;
 A_juice = 0;
@@ -48,3 +48,6 @@ neck_y = -24;
 shoulder_y = -20;
 facing = 0;
 time_dead = 0;
+
+//sound stuff
+alive = true;

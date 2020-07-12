@@ -3,6 +3,14 @@ event_inherited();
 
 if obj_player.input_lc
 {
+	//suck sound
+	var _playsuck = random(1);
+	if (_playsuck > 0.4) 
+	{
+		audio_sound_pitch(sfx_ssuccc,random_range(0.6,1));
+		audio_play_sound(sfx_ssuccc,6,false);
+	}
+	
 	with obj_vac_hitbox
 	{
 		//suck pickups
@@ -50,6 +58,12 @@ if obj_player.input_lc
 
 if obj_player.input_rc
 {
+	var _playsuck = random(1);
+	if (_playsuck > 0.4) 
+	{
+		audio_sound_pitch(sfx_ssuccc,random_range(0.4,0.6));
+		audio_play_sound(sfx_ssuccc,6,false);
+	}
 	with obj_vac_hitbox
 	{
 		//blow pickups

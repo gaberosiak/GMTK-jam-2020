@@ -1351,6 +1351,14 @@
             }
         },
         {
+            "Key": "bef8b31c-35bc-4f39-a19a-2c6ce099742d",
+            "Value": {
+                "id": "ea39273a-9818-41e4-b1a2-4d18ad197a09",
+                "resourcePath": "objects\\mgr_music\\mgr_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bf844d63-7a89-4ba8-b912-9dfc8df31006",
             "Value": {
                 "id": "9f33c772-9285-4866-b76b-3bc667bf442a",
@@ -1671,6 +1679,14 @@
             }
         },
         {
+            "Key": "e24338c4-d976-49a5-8840-5ed84ac542b6",
+            "Value": {
+                "id": "5d28b7f7-b291-4606-819a-820b9886a48a",
+                "resourcePath": "sprites\\spr_musmgr\\spr_musmgr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2dfe911-93de-4ee7-9a0d-92fc5c855bd3",
             "Value": {
                 "id": "972212ec-5a14-4422-8081-efdaab0e9a8a",
@@ -1900,6 +1916,14 @@
                 "id": "3f948c0a-6139-4f21-8630-e0cec7202197",
                 "resourcePath": "sprites\\spr_wa_normal_fullres\\spr_wa_normal_fullres.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fec5a112-d1cd-46eb-9121-1bd5e6980fc4",
+            "Value": {
+                "id": "ebc3ca40-38e4-434d-81a7-f41a575ce8d2",
+                "resourcePath": "rooms\\rm_start\\rm_start.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
