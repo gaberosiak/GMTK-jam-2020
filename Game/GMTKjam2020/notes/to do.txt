@@ -12,6 +12,7 @@ Major things
 - enemies DONE
 - sound DONE FOR NOW
 
+- UI
 - main menu
 - final packaging
 - juice (in the traditional game dev sense)
