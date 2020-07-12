@@ -3,6 +3,7 @@
 switch(state)
 {
 	case States.Patrol:
+	alert = "   ";
 		//If the player enters my view area and I can see him, then go into chase mode
 		if(collision_circle(x, y, viewRadius, obj_player, true, false))
 		{
@@ -25,10 +26,11 @@ switch(state)
 		}
 		break;
 	case States.Chase:
+		alert = " ! "
 		if(isMoving)
 		{					
 			distance = point_distance(obj_player.x, obj_player.y, x, y);;
-			if(distance > 64)
+			if(distance > 192)
 			{
 				mp_potential_step_object(obj_player.x, obj_player.y, moveSpeed, obj_wall);	
 				attackTimer = 0;
@@ -73,17 +75,21 @@ switch(state)
 			isMoving = !isMoving;
 		}	
 		break;
-	case States.Attack:		
+	case States.Attack:	
+		alert = "!!!"
 		attackTimer++;
-		if(attackTimer > 5 && attackTimer <= 10)
-		{			
-			xDir = (obj_player.x - x) * 0.5;
-			yDir = (obj_player.y - y) * 0.5;
-			if(collision_circle(x + xDir, y + yDir, 32, obj_player, true, false))
-			{
-				
-			}
-		}
+		//if(attackTimer > 5 && attackTimer <= 10)
+		//{			
+		//	xDir = (obj_player.x - x) * 0.5;
+		//	yDir = (obj_player.y - y) * 0.5;
+		//	if(collision_circle(x + xDir, y + yDir, 32, obj_player, true, false))
+		//	{
+				var _atkDir = point_direction(x,y,obj_player.x,obj_player.y);
+				var _atkSpd = 3;
+				x += lengthdir_x(_atkSpd,_atkDir);
+				y += lengthdir_y(_atkSpd,_atkDir);
+		//	}
+		//}
 		if(attackTimer >= 30)
 		{
 			state = States.Patrol;
@@ -92,3 +98,4 @@ switch(state)
 	case States.Trapped:
 		break;
 }
+

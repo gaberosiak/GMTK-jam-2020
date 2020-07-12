@@ -26,7 +26,9 @@ if obj_player.input_lc
 		
 		//suck enemies
 		var _list = ds_list_create();
-		var _num = instance_place_list(x, y, obj_enemy, _list, false);
+		//var _num = instance_place_list(x, y, obj_enemy, _list, false);
+		//^ this is fucky with the ground enemy's wall collision
+		var _num = instance_place_list(x, y, obj_en_flying, _list, false);
 		if _num > 0
 		    {
 		    for (var i = 0; i < _num; ++i;)
@@ -34,7 +36,7 @@ if obj_player.input_lc
 					var _inst = _list[| i];
 					var _dist = point_distance(x,y,_inst.x,_inst.y);
 					var _angle = point_direction(x,y,_inst.x,_inst.y);
-					var _step = max(0, (vac_force * (vac_reach - _dist) / vac_reach));
+					var _step = max(0, (vac_force/2 * (vac_reach - _dist) / vac_reach));
 					//var _step = (vac_force * (vac_reach - _dist) / vac_reach);
 					if (_dist < vac_force) _step = 0;
 					_inst.x -= lengthdir_x(_step,_angle);
@@ -50,7 +52,7 @@ if obj_player.input_rc
 {
 	with obj_vac_hitbox
 	{
-		//suck pickups
+		//blow pickups
 		var _list = ds_list_create();
 		var _num = instance_place_list(x, y, obj_pickup, _list, false);
 		if _num > 0
@@ -63,15 +65,20 @@ if obj_player.input_rc
 					var _step = max(0, (vac_force * (vac_reach - _dist) / vac_reach));
 					//var _step = (vac_force * (vac_reach - _dist) / vac_reach);
 					if (_dist < vac_force) _step = 0;
-					_inst.x += lengthdir_x(_step,_angle);
-					_inst.y += lengthdir_y(_step,_angle);
+					//if !place_meeting(_inst.x+lengthdir_x(_step,_angle),_inst.y+lengthdir_y(_step,_angle),obj_wall)
+					//{
+						_inst.x += lengthdir_x(_step,_angle);
+						_inst.y += lengthdir_y(_step,_angle);
+					//}
 		        }
 		    }
 		ds_list_destroy(_list);
 		
-		//suck enemies
+		//blow enemies
 		var _list = ds_list_create();
-		var _num = instance_place_list(x, y, obj_enemy, _list, false);
+		//var _num = instance_place_list(x, y, obj_enemy, _list, false);
+		//^ this is fucky with the ground enemy's wall collision
+		var _num = instance_place_list(x, y, obj_en_flying, _list, false);
 		if _num > 0
 		    {
 		    for (var i = 0; i < _num; ++i;)
@@ -79,7 +86,7 @@ if obj_player.input_rc
 					var _inst = _list[| i];
 					var _dist = point_distance(x,y,_inst.x,_inst.y);
 					var _angle = point_direction(x,y,_inst.x,_inst.y);
-					var _step = max(0, (vac_force * (vac_reach - _dist) / vac_reach));
+					var _step = max(0, (vac_force/2 * (vac_reach - _dist) / vac_reach));
 					//var _step = (vac_force * (vac_reach - _dist) / vac_reach);
 					if (_dist < vac_force) _step = 0;
 					_inst.x += lengthdir_x(_step,_angle);
