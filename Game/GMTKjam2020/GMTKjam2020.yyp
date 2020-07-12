@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "8931a699-6e4b-4b7f-90d4-036863519a07",
+            "Value": {
+                "id": "0e5ea6cf-10e7-4764-99e4-64b7aeaaeb36",
+                "resourcePath": "rooms\\rm_danish4\\rm_danish4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8b59c37e-d3c5-4878-b816-dee068f09544",
             "Value": {
                 "id": "0196a91a-1ac4-4699-b850-b0ed2682a633",
