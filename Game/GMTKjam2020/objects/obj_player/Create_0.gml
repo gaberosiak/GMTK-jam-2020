@@ -47,3 +47,4 @@ rc_juice = 0;
 neck_y = -24;
 shoulder_y = -20;
 facing = 0;
+time_dead = 0;

@@ -44,6 +44,7 @@ input_rc = _rc;
 input_lc_pressed = _lcp;
 input_rc_pressed = _rcp;
 
+//animate
 if input_x > 0
 {
 	sprite_index = spr_player_body_walk_right;
@@ -74,6 +75,13 @@ else
 	image_speed = 0;
 	if (facing == 1) image_index = 1;
 	else image_index = 0;
+}
+
+if (W_juice + A_juice +	S_juice + D_juice + lc_juice + rc_juice <= 0)
+{
+	sprite_index = spr_player_dead;
+	shoulder_y = -5;
+	time_dead++;
 }
 
 //collect pickups
