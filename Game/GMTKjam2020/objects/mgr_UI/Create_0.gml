@@ -1,0 +1,1 @@
+ui_panel_width = 64*3;

@@ -9,6 +9,8 @@ D_juice = 0;
 lc_juice = 0;
 rc_juice = 0;
 
+level_name = "level name";
+
 //equipment
 //equipment = obj_eq_gun;
 

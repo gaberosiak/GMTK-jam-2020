@@ -1,9 +1,11 @@
 /// @description update camera
 
+var _UIwidth = mgr_UI.ui_panel_width
+
 //update destination
 if instance_exists(follow)
 {
-	x_to = follow.x;
+	x_to = follow.x - 0.5*_UIwidth;
 	y_to = follow.y;
 }
 
@@ -12,7 +14,7 @@ x += (x_to - x) / cam_lag;
 y += (y_to - y) / cam_lag;
 
 //clamp
-x = clamp(x,view_w_half, room_width-view_w_half);
+x = clamp(x,view_w_half - _UIwidth, room_width-view_w_half);
 y = clamp(y,view_h_half, room_height-view_h_half);
 
 //screenshake
