@@ -11,7 +11,8 @@
         "3499d1ed-d0a9-4b51-9fb6-0fda81173be0",
         "d2d1f840-131c-4708-a96d-0eb81ae09397",
         "7f98f18d-9c49-409a-80b7-243c03896eac",
-        "c818ba50-d5f4-4b59-9fe1-8a51dd7831ad"
+        "c818ba50-d5f4-4b59-9fe1-8a51dd7831ad",
+        "6c1fe678-52b1-47fc-8383-d9ebb6ccce9b"
     ],
     "filterType": "GMSprite",
     "folderName": "placeholders",
