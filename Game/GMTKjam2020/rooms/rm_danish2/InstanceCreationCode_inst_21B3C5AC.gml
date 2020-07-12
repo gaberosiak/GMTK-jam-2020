@@ -4,7 +4,7 @@ S_juice = 0;
 D_juice = 192;
 lc_juice = 0;
 rc_juice = 0;
-
+level_name = "Recharge";
 //level description
 //Teaching players that batteries refills meter
 //Battery refill amounts:
