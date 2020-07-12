@@ -1,5 +1,6 @@
 /// @description 
 
+audio_play_sound(sfx_win,9,false);
 ////for debug:
 //room_restart();
 
