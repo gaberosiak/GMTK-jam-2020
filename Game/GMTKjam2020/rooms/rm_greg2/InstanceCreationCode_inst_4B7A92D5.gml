@@ -4,7 +4,7 @@ S_juice = 940;
 D_juice = 2400;
 lc_juice = 150;
 rc_juice = 0;
-level_name = "you have to do murder now";
+level_name = "you have to do\n murder now";
 
 //level description
 //

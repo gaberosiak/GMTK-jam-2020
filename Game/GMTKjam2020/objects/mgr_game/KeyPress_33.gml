@@ -1,2 +1,2 @@
 /// @description 
-room_goto_next();
+if (room != rm_end) room_goto_next();
