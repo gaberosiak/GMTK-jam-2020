@@ -8,9 +8,9 @@ Major things
 - juice UI DONE (thanks Danish)
 - pickups replenishment DONE
 - equipment DONE for now
+- animation DONE
+- enemies DONE
 
-- animation
-- enemies (Danish)
 - main menu
 - final packaging
 - juice (in the traditional game dev sense)
