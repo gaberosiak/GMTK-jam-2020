@@ -14,8 +14,6 @@ switch(state)
 				{
 					state = States.Chase;	
 					viewTimer = 0;
-					moveTimer = 30;
-					isMoving = true;
 				}
 			}
 			else
@@ -24,24 +22,39 @@ switch(state)
 			}
 		}
 		break;
-	case States.Chase:
-		if(isMoving)
-		{					
-			distance = point_distance(obj_player.x, obj_player.y, x, y);;
-			if(distance > 64)
+	case States.Chase:	
+		distance = point_distance(obj_player.x, obj_player.y, x, y);;
+		dx = ((obj_player.x - x) / distance) * moveSpeed;
+		dy = ((obj_player.y - y) / distance) * moveSpeed;
+		if(place_meeting(x + dx, y, obj_wall))
+		{
+			while(place_meeting(x + dx, y, obj_wall))
 			{
-				mp_potential_step_object(obj_player.x, obj_player.y, moveSpeed, obj_wall);	
-				attackTimer = 0;
+				dx -= sign(dx);	
 			}
-			else
+		}
+		if(place_meeting(x, y + dy, obj_wall))
+		{
+			while(place_meeting(x, y + dy, obj_wall))
 			{
-				attackTimer++;
-				if(attackTimer >= 5)
-				{
-					viewTimer = 0;	
-					attackTimer = 0;
-					state = States.Attack;
-				}
+				dy -= sign(dy);	
+			}
+		}		
+		x += dx;
+		y += dy;
+		
+		if(distance > 32)
+		{
+			attackTimer = 0;
+		}
+		else
+		{
+			attackTimer++;
+			if(attackTimer >= 5)
+			{
+				viewTimer = 0;	
+				attackTimer = 0;
+				state = States.Attack;
 			}
 		}
 		
@@ -57,20 +70,6 @@ switch(state)
 				state = States.Patrol;
 				viewTimer = 0;			
 			}
-		}	
-		
-		moveTimer--;
-		if(moveTimer <= 0)
-		{
-			if(!isMoving)
-			{
-				moveTimer = 30;
-			}
-			else
-			{
-				moveTimer = 45;	
-			}
-			isMoving = !isMoving;
 		}	
 		break;
 	case States.Attack:		
