@@ -1,1 +1,1 @@
-juice = 1;
+juice = 10;
